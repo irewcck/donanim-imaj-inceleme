@@ -1,15 +1,35 @@
-# USB Disk İmajı İnceleme Ödevi
-Bu projede, bir USB diskin çeşitli işlemler sonrası (wipe, manuel silme, biçimlendirme) imajı alınmış ve FTK ile Autopsy kullanılarak incelenmiştir.
+## USB Disk İmajı İnceleme 
 
-## Yapılan Adımlar
-1. USB disk `Ditto` cihazı ile wipe edildi ve imajı alındı.
-2. Diske resim, ses, PDF ve text dosyaları eklendi, elle silindi ve tekrar imaj alındı.
-3. Disk biçimlendirildi ve imaj alındı.
-4. Tüm imajlar FTK ve Autopsy araçları ile analiz edildi.
+Bu projede, bir USB diskin çeşitli işlemler sonrası (wipe, elle silme, biçimlendirme) imajı alınmış ve FTK ile Autopsy araçları kullanılarak analiz edilmiştir.
 
-## Kullanılan Donanım ve Yazılımlar
+## 📚 İçerik
+- `imaj.docx` ➤ Adım adım işlem açıklamaları (Word dokümanı)
+
+## 👩‍🎓 Öğrenciler
+- İrem Çiçek 
+
+## 🔬 Yapılan İşlemler
+1. **Wipe işlemi**: Ditto cihazı kullanılarak USB tamamen temizlendi.
+2. **Elle veri ekleyip silme**: USB’ye çeşitli dosyalar eklendi, sonra manuel silindi.
+3. **Biçimlendirme işlemi**: USB disk formatlandı.
+4. **İmaj alma ve analiz**: Her aşamadan sonra imaj alındı ve:
+   - FTK Imager
+   - Autopsy  
+   ile analiz yapıldı.
+
+## ⚙️ Kullanılan Donanım ve Yazılımlar
 - Ditto cihazı
-- ALL IN ONE HDD Docking
-- FTK (Forensic Toolkit)
+- Tableau
+- All In One HDD Docking
+- FTK Imager
 - Autopsy
+
+## 📌 Notlar
+- Biçimlendirme verileri fiziksel olarak silmez. Analizlerde `unallocated` ve `orphan` alanlar incelenmiştir.
+- Görseller sunum dosyasındadır.
+- Word dokümanında tüm işlem detayları yer almaktadır.
+
+---
+
+🔍 Bu çalışma, adli bilişim alanında pratik bir USB imaj incelemesi örneğidir.
 
